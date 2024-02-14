@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 import { BsBalloonFill, BsFillHeartFill } from "react-icons/bs";
 
-function Baloon(props: BaloonProps) {
+function Baloon() {
     const ref = useRef(null);
 
     return (
@@ -46,5 +46,4 @@ function random(min: number, max: number) {
     return Math.random() * (max - min) + min;
 }
 
-interface BaloonProps { }
 export default Baloon;

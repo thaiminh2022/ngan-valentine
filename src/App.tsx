@@ -19,6 +19,7 @@ function App() {
     const [startQuestion, setStartQuestion] = useState(false);
     const [enterSite, setEnterSite] = useState(false);
 
+    console.log("Im in");
 
     const questions: QuestionForm[] = useMemo<QuestionForm[]>(() => {
 

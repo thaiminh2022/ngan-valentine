@@ -10,6 +10,7 @@ import Hello from "./components/Hello";
 import { AnimatePresence } from "framer-motion";
 import QuestionWrapper from "./components/QuestionWrapper";
 import Question, { QuestionForm } from "./components/Question";
+import EnterSite from "./components/EnterSite";
 
 
 
@@ -71,6 +72,10 @@ function App() {
                     <Question question_data={questions[1]} />
                 </QuestionWrapper>}
             </AnimatePresence>
+            <AnimatePresence>
+                {enterSite && <EnterSite />}
+            </AnimatePresence>
+
 
 
 

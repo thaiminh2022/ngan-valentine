@@ -7,7 +7,7 @@ function Background(props: Props) {
         initial={{ width: "100vw", height: 0 }}
         animate={{ height: "100vh" }}
         transition={{ duration: 1, delay: 1, ease: "easeOut" }}
-        className="absolute -z-10 bg-gradient-to-b from-background to-pink-300 rounded-lg"
+        className="absolute -z-20 bg-gradient-to-b from-background to-pink-300 rounded-lg"
         onAnimationComplete={props.onAnimationComplete}
     >
     </motion.section>

@@ -1,8 +1,7 @@
-import { AnimatePresence, Variants, motion } from "framer-motion";
-import React, { useState } from "react";
-import { FaKiss, FaKissBeam, FaKissWinkHeart } from "react-icons/fa";
+import { Variants, motion } from "framer-motion";
+import { useState } from "react";
+import { FaKissWinkHeart } from "react-icons/fa";
 import { GiClick } from "react-icons/gi";
-import { HiCursorClick } from "react-icons/hi";
 
 const btnVariants: Variants = {
     enter: {

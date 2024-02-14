@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import Question, { QuestionProps } from "./Question";
+import { QuestionProps } from "./Question";
 import { AnimatePresence, motion } from "framer-motion";
 
 function QuestionWrapper(props: QuestionWrapperProps) {
